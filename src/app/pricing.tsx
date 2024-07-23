@@ -3,7 +3,6 @@ import React from "react";
 import { Card, CardBody, Button, Typography } from "@material-tailwind/react";
 import { CheckIcon } from "@heroicons/react/24/outline";
 
-
 const PRICING_OPTIONS = [
   "25 Classes",
   "200 Learning hours  ",
@@ -13,20 +12,47 @@ const PRICING_OPTIONS = [
 
 export function Pricing() {
   return (
-    <div className="grid min-h-screen place-items-center">
+    <div className="grid min-h-screen place-items-center" id="about">
       <section className="container mx-auto px-10">
         <div className="grid place-items-center pb-20 text-center">
-          <Typography variant="h2" color="blue-gray">
+          <Typography
+            variant="h2"
+            color="blue-gray"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             Best no-tricks pricing
           </Typography>
-          <Typography variant="lead" className="mt-2 !text-gray-500 lg:w-5/12">
+          <Typography
+            variant="lead"
+            className="mt-2 !text-gray-500 lg:w-5/12"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
             If you are not satisfied, contact us within the first 30 days and we
             will send you a full refund.
           </Typography>
         </div>
-        <Card className="px-6 pb-5">
-          <CardBody>
-            <Typography variant="h3" color="blue-gray">
+        <Card
+          className="px-6 pb-5"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
+          <CardBody
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            <Typography
+              variant="h3"
+              color="blue-gray"
+              placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
+            >
               React Course Membership
             </Typography>
             <div className="grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
@@ -34,12 +60,21 @@ export function Pricing() {
                 <Typography
                   variant="paragraph"
                   className="mb-10 mt-2 w-full font-normal !text-gray-500"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Our Course Package offers full access to the React Course,
                   including all course materials, assignments, and projects.
                 </Typography>
                 <div className="flex flex-wrap items-center gap-x-20 gap-y-6">
-                  <Typography variant="h6" color="blue-gray">
+                  <Typography
+                    variant="h6"
+                    color="blue-gray"
+                    placeholder={undefined}
+                    onPointerEnterCapture={undefined}
+                    onPointerLeaveCapture={undefined}
+                  >
                     What is included
                   </Typography>
                   <hr className="w-72 bg-gray-500" />
@@ -55,6 +90,9 @@ export function Pricing() {
                       <Typography
                         variant="paragraph"
                         className="font-normal !text-gray-500"
+                        placeholder={undefined}
+                        onPointerEnterCapture={undefined}
+                        onPointerLeaveCapture={undefined}
                       >
                         {option}
                       </Typography>
@@ -63,18 +101,39 @@ export function Pricing() {
                 </div>
               </div>
               <div className="grid place-items-center lg:justify-end">
-                <Typography variant="h6" color="blue-gray">
+                <Typography
+                  variant="h6"
+                  color="blue-gray"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   Pay once, own it forever
                 </Typography>
-                <Typography variant="h1" color="blue-gray">
+                <Typography
+                  variant="h1"
+                  color="blue-gray"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   $399
                 </Typography>
-                <Button color="gray" className="my-3">
+                <Button
+                  color="gray"
+                  className="my-3"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
+                >
                   get access
                 </Button>
                 <Typography
                   variant="small"
                   className="font-normal !text-gray-500"
+                  placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   Get a free sample (20MB)
                 </Typography>
@@ -86,6 +145,5 @@ export function Pricing() {
     </div>
   );
 }
-
 
 export default Pricing;

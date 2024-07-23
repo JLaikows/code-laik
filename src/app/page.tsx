@@ -15,9 +15,9 @@ export default function Campaign() {
       <Navbar />
       <Hero />
       <OnlineCourse />
-      <WhyChooseUs />
       <CarouselFeatures />
-      <Pricing />
+      {/* <WhyChooseUs /> */}
+      {/* <Pricing /> */}
       <OtherCourses />
       <Footer />
     </>

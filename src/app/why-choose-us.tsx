@@ -26,10 +26,22 @@ function Option({ icon: Icon, title, children }: OptionProps) {
         <Icon className="text-gray-900 h-6 w-6" />
       </div>
       <div>
-        <Typography variant="h5" color="blue-gray" className="mb-2">
+        <Typography
+          variant="h5"
+          color="blue-gray"
+          className="mb-2"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           {title}
         </Typography>
-        <Typography className="mb-2 md:w-10/12 font-normal !text-gray-500">
+        <Typography
+          className="mb-2 md:w-10/12 font-normal !text-gray-500"
+          placeholder={undefined}
+          onPointerEnterCapture={undefined}
+          onPointerLeaveCapture={undefined}
+        >
           {children}
         </Typography>
       </div>
@@ -40,12 +52,22 @@ function Option({ icon: Icon, title, children }: OptionProps) {
 export function WhyChooseUs() {
   return (
     <section className="w-full max-w-4xl mx-auto flex flex-col items-center px-4 py-10">
-      <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-        Why choose our course?
+      <Typography
+        variant="h2"
+        className="text-center mb-2"
+        color="blue-gray"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
+      >
+        Meet Our Team
       </Typography>
       <Typography
         variant="lead"
         className="mb-16 w-full text-center font-normal !text-gray-500 lg:w-10/12"
+        placeholder={undefined}
+        onPointerEnterCapture={undefined}
+        onPointerLeaveCapture={undefined}
       >
         Discover the unique advantages, benefits, and standout features that set
         our course apart from the rest.

@@ -14,26 +14,27 @@ import FeatureCard from "@/components/feature-card";
 const FEATURES = [
   {
     icon: InboxIcon,
-    title: "Hands-On Projects",
+    title: "Modern Design",
     description:
-      "Apply your knowledge to real-world projects, building a robust portfolio.",
+      "Experience sleek, contemporary website designs that captivate users and provide an intuitive, user-friendly interface, making your brand stand out.",
   },
   {
     icon: AcademicCapIcon,
-    title: "Career Opportunities",
+    title: "SEO Optimization",
     description:
-      "React developers are in high demand and this course is designed for you!",
+      "Enhance your website’s visibility on search engines with our advanced SEO techniques, ensuring higher rankings and increased organic traffic.",
   },
   {
     icon: CheckBadgeIcon,
-    title: "Flexible Learning",
-    description: "Access course materials whenever it suits your schedule.",
+    title: "More Foot Traffic",
+    description:
+      "Drive more visitors to your site with targeted strategies that attract and engage your audience, ultimately boosting your online presence and conversions.",
   },
 ];
 
 export function OnlineCourse() {
   return (
-    <section className="py-28 px-8">
+    <section className="py-28 px-8" id="about">
       <div className="container mx-auto grid grid-cols-1 place-items-center lg:grid-cols-3">
         <div className="col-span-1 rounded-xl lg:mb-0 mb-12">
           <Image
@@ -45,16 +46,27 @@ export function OnlineCourse() {
           />
         </div>
         <div className="col-span-2 lg:pl-24">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
-            Online Course
+          <Typography
+            variant="h2"
+            color="blue-gray"
+            className="mb-4"
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            Elevating Your Digital Presence
           </Typography>
           <Typography
             variant="lead"
             className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-500 lg:px-0  "
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
-            In this comprehensive React Course, you&apos;ll delve into the world
-            of React, from its fundamentals to advanced techniques. Our expert
-            instructors will guide you through every step.
+            At Codelaik, our mission is to empower businesses by creating
+            exceptional online experiences that drive growth and success. We are
+            dedicated to delivering high-quality, customized web development
+            solutions that meet your unique needs
           </Typography>
 
           <div className="col-span-2 grid grid-cols-1 gap-10 sm:grid-cols-3 ">
