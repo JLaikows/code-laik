@@ -12,6 +12,13 @@ const OTHER_COURSES = [
     link: "https://sashasemeniuk.com",
   },
   // {
+  //   img: "https://media.licdn.com/dms/image/D4E2DAQH0pKijXCMbcg/profile-treasury-image-shrink_800_800/0/1719363695438?e=1722322800&v=beta&t=T4tmgfDhjsUysioHeUFqocS1SlfeL0Sy-vB2GkqKy-s",
+  //   title: "NYCRHPS",
+  //   desc: "Updated an admin",
+  //   buttonLabel: "See Webpage",
+  //   link: "https://nycrhps.com",
+  // },
+  // {
   //   img: "/image/blogs/blog2.svg",
   //   title: "WebDev Pro Code-a-Thon: Build a Responsive Website",
   //   desc: "Participants will have 48 hours to create a responsive website from scratch using HTML, CSS, and JavaScript.",
