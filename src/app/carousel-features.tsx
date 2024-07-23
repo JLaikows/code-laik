@@ -14,14 +14,14 @@ const teamList: any[] = [
       "https://media.licdn.com/dms/image/D4D03AQHa4PZUt_hGng/profile-displayphoto-shrink_800_800/0/1707503159964?e=1722470400&v=beta&t=5A_hZyu1gIPfKGuYHcWdxXe4Gxl96n9E1VYdHqQDqP0",
     portfolio: "https://laikowski.com",
   },
-  {
-    name: "Casey O'neil",
-    title: "Software Engineer II",
-    description:
-      "Josh is a seasoned web development expert with over a 5+ of experience in crafting robust, scalable web applications. His innovative approach and meticulous attention to detail ensure every project exceeds client expectations. Passionate about technology, Joshua is dedicated to driving Codelaik's success through exceptional engineering.",
-    image:
-      "https://media.licdn.com/dms/image/D4D35AQGdD3vWtkKWnQ/profile-framedphoto-shrink_800_800/0/1696441245247?e=1722319200&v=beta&t=tePKNd4GUY1vpuB7YW8TGm_QlfOZRnsD9hlQkqar8vk",
-  },
+  // {
+  //   name: "Casey O'neil",
+  //   title: "Software Engineer II",
+  //   description:
+  //     "Josh is a seasoned web development expert with over a 5+ of experience in crafting robust, scalable web applications. His innovative approach and meticulous attention to detail ensure every project exceeds client expectations. Passionate about technology, Joshua is dedicated to driving Codelaik's success through exceptional engineering.",
+  //   image:
+  //     "https://media.licdn.com/dms/image/D4D35AQGdD3vWtkKWnQ/profile-framedphoto-shrink_800_800/0/1696441245247?e=1722319200&v=beta&t=tePKNd4GUY1vpuB7YW8TGm_QlfOZRnsD9hlQkqar8vk",
+  // },
 ];
 
 export function CarouselFeatures() {
