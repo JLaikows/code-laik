@@ -28,6 +28,39 @@ export default function RootLayout({
           data-site="YOUR_DOMAIN_HERE"
           src="https://api.nepcha.com/js/nepcha-analytics.js"
         ></script>
+        {/*<!-- Open Graph / Facebook -->*/}
+        <meta
+          property="og:title"
+          content="Codelaik - Expert Web Development Services"
+        />
+        <meta
+          property="og:description"
+          content="Codelaik offers top-notch web development services, specializing in creating responsive, secure, and high-performance websites. Contact us to transform your digital presence."
+        />
+        <meta
+          property="og:image"
+          content="https://codelaik.com/image/course.png"
+        />
+        <meta property="og:url" content="https://www.codelaik.com" />
+        <meta property="og:type" content="website" />
+
+        {/*<!-- Twitter --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Codelaik - Expert Web Development Services"
+        />
+        <meta
+          name="twitter:description"
+          content="Codelaik offers top-notch web development services, specializing in creating responsive, secure, and high-performance websites. Contact us to transform your digital presence."
+        />
+        <meta
+          name="twitter:image"
+          content="https://codelaik.com/image/course.png"
+        />
+
+        {/* <!-- Canonical URL -->*/}
+        <link rel="canonical" href="https://www.codelaik.com" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="shortcut icon" href="/favicon.png" type="image/png" />
       </head>
